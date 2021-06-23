@@ -16,12 +16,12 @@ public class School {
         this.code = code;
     }
 
-    public void addPerson(Person person){
+    public void addPerson(Person person) {
         persons.add(person);
     }
 
-    public void listPerson(){
-        for (Person person : persons){
+    public void listPerson() {
+        for (Person person : persons) {
             System.out.println(String.valueOf(person));
         }
     }
