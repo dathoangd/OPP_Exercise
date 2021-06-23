@@ -1,0 +1,16 @@
+package OOP_Exercise2;
+
+public enum Role {
+    TEACHERFULLTIME,
+    TEACHERPARTTIME,
+    TEACHERSUPPORT,
+    RECUTER,
+    ACCOUNTANT,
+    CLEANER,
+    SECURITY,
+    STUDENT,
+    OLDSTUDENT,
+    NEWBIE;
+
+
+}
