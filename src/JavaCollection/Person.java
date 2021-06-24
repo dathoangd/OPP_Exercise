@@ -1,10 +1,8 @@
 package JavaCollection;
 
+import java.util.*;
 
-import java.util.Arrays;
-import java.util.List;
-
-public class Person {
+public class Person{
     String name;
     String nationality;
     int age;
@@ -23,4 +21,16 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+    static class AgeComparator implements Comparator<Person> {
+        public int compare(Person s1, Person s2) {
+            if (s1.age == s2.age)
+                return 0;
+            else if (s1.age > s2.age)
+                return 1;
+            else
+                return -1;
+        }
+    }
+
+
 }
